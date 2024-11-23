@@ -239,6 +239,7 @@
 			)
 		)
 	)
+	(clearance 0.15)
 	(attr smd)
 	(fp_line
 		(start -2.2 2.15)
@@ -535,7 +536,6 @@
 		(size 1.125 0.37)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "77002528-f6b8-4722-bd7c-80f9f8cf0dab")
 	)
 	(pad "2" smd roundrect
@@ -543,7 +543,6 @@
 		(size 1.1 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "f928c3eb-a812-4afb-a154-c32db7e3c8fb")
 	)
 	(pad "3" smd roundrect
@@ -551,7 +550,6 @@
 		(size 1.1 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "856d25cc-0943-43a7-9e38-a1737aa04512")
 	)
 	(pad "4" smd roundrect
@@ -559,7 +557,6 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "ce2fc36b-c41f-428f-bead-b290dfe0d536")
 	)
 	(pad "4" smd roundrect
@@ -567,7 +564,6 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "e2f324ea-35bf-4fc1-821f-cbfbb19526e7")
 	)
 	(pad "4" smd roundrect
@@ -575,7 +571,6 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "e3e4d9aa-8b09-47ae-a416-e6249ea35496")
 	)
 	(pad "4" smd roundrect
@@ -583,7 +578,6 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "47f77e35-75ca-4c58-87c2-84ca4013bf5b")
 	)
 	(pad "4" smd roundrect
@@ -591,7 +585,6 @@
 		(size 1.1 2.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
-		(solder_mask_margin 0.07)
 		(uuid "ffeaecab-00a4-4dd0-8630-e840383f38cc")
 	)
 	(pad "5" smd roundrect
@@ -599,7 +592,6 @@
 		(size 1.1 2.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
-		(solder_mask_margin 0.07)
 		(uuid "e86f1046-e581-4347-b848-5bde7fd36bbf")
 	)
 	(pad "5" smd roundrect
@@ -607,7 +599,6 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "7a0fba75-0ead-4a73-af2c-92baa6748d0a")
 	)
 	(pad "5" smd roundrect
@@ -615,7 +606,6 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "592b2369-f9a0-4383-b05c-3343b1b0663f")
 	)
 	(pad "5" smd roundrect
@@ -623,7 +613,6 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "81b14d81-40dc-4a0d-a243-dc875a5056b2")
 	)
 	(pad "5" smd roundrect
@@ -631,7 +620,6 @@
 		(size 0.5 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "6bb171a6-bfb9-4e33-ba8c-8f63b1c78878")
 	)
 	(pad "6" smd roundrect
@@ -639,7 +627,6 @@
 		(size 1.1 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "b52f103d-7edd-4a22-809e-717b60349bd0")
 	)
 	(pad "7" smd roundrect
@@ -647,7 +634,6 @@
 		(size 1.1 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "18df93a9-8ea6-42e9-bd2c-22bd3ef60d87")
 	)
 	(pad "8" smd roundrect
@@ -655,7 +641,6 @@
 		(size 1.125 0.37)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "8c208706-b8fd-4f4f-a08d-85285194bd6f")
 	)
 	(pad "9" smd roundrect
@@ -663,7 +648,6 @@
 		(size 0.25 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "330653db-0840-4658-b8e9-be5d62765d3f")
 	)
 	(pad "10" smd roundrect
@@ -671,7 +655,6 @@
 		(size 0.3 1.52)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "72b31863-87db-4f06-b90d-82d5a22935de")
 	)
 	(pad "11" smd roundrect
@@ -679,7 +662,6 @@
 		(size 0.25 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
 		(uuid "1aa5038f-ec7c-431d-92ee-e5e31313d8e7")
 	)
 	(model "/home/jared/Projects/electronics/kicad/models/power_ics/TI/TLVM23615RDNR.stp"

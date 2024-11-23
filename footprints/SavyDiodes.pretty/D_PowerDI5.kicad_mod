@@ -1,4 +1,4 @@
-(footprint "PowerDI5"
+(footprint "D_PowerDI5"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -188,7 +188,7 @@
 			)
 		)
 	)
-	(property "Value" "PowerDI5"
+	(property "Value" "D_PowerDI5"
 		(at 0 3.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
