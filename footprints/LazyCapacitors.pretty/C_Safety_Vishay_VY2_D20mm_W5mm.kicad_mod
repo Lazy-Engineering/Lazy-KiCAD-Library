@@ -1,0 +1,245 @@
+(footprint "C_Safety_Vishay_VY2_D20mm_W5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "VY2103M63Y5US63V7 ")
+	(property "Reference" "REF**"
+		(at 0 -3.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f9bc7a6a-1cb6-4852-abf1-56d8602ad818")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "C_Safety_Vishay_VY2_D20mm_W5mm"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "faafa0eb-e75c-4b34-8a38-dd85bda9c258")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0527765a-a86a-43a9-ae44-ac284de3dffc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e45c48b0-c391-4f20-a030-f997d2787158")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.5 -2.65)
+		(end 5.5 -2.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f949d3b-b316-44fc-9125-8add607114fa")
+	)
+	(fp_line
+		(start -5.5 2.65)
+		(end 5.5 2.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d68d093-c8f1-4c12-9410-12dd1d99f82a")
+	)
+	(fp_arc
+		(start -5.5 2.65)
+		(mid -8.15 0)
+		(end -5.5 -2.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a61fa845-c9fb-4525-96b2-5dd102e05ff5")
+	)
+	(fp_arc
+		(start 5.5 -2.65)
+		(mid 8.15 0)
+		(end 5.5 2.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51f99457-9650-44fc-8de9-aa956070c5ad")
+	)
+	(fp_line
+		(start -5.5 -2.8)
+		(end 5.5 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb79eba6-1c48-4d9d-8749-3706a3f7d6ee")
+	)
+	(fp_line
+		(start 5.5 2.8)
+		(end -5.5 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a0c4925-aa47-403d-9fca-06e1c79fbb37")
+	)
+	(fp_arc
+		(start -8.3 0)
+		(mid -7.479899 -1.979899)
+		(end -5.5 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4d03a22-b0af-4372-8cbd-51b5ca1f0b69")
+	)
+	(fp_arc
+		(start -5.5 2.8)
+		(mid -7.479899 1.979899)
+		(end -8.3 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "121fcff8-6625-4094-9cc5-c6739fc03361")
+	)
+	(fp_arc
+		(start 5.5 -2.8)
+		(mid 7.479899 -1.979899)
+		(end 8.3 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc475cfa-be6b-44d8-8e58-451223033271")
+	)
+	(fp_arc
+		(start 8.3 0)
+		(mid 7.479899 1.979899)
+		(end 5.5 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1d8c030-e3f6-4adf-b31f-cbd8129012bf")
+	)
+	(fp_line
+		(start -5.4991 -2.5019)
+		(end 5.4991 -2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be0ee5d0-c3f4-4ad8-92a0-b3f6841ffbd8")
+	)
+	(fp_line
+		(start -5.4991 2.5019)
+		(end 5.4991 2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5baaba3f-813a-4f3d-9e8d-0a207553a76a")
+	)
+	(fp_arc
+		(start -5.4991 2.5019)
+		(mid -8.001 0)
+		(end -5.4991 -2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f51b30d-a8aa-4578-8cd4-b55d2e16e976")
+	)
+	(fp_arc
+		(start 5.4991 -2.5019)
+		(mid 8.001 0)
+		(end 5.4991 2.5019)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dacd12da-f467-438b-8517-b8e399f99965")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "458c110e-5737-4df8-8aca-38391620d596")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.8 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1333333333)
+		(uuid "a0b2a7fe-ff5a-4ed9-b7df-68548ee8c00c")
+	)
+	(pad "2" thru_hole circle
+		(at 3.8 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d89fe91-bf3e-47c0-b4d4-8a4d305fb805")
+	)
+	(embedded_fonts no)
+	(model "${THE_LAZY_ENGINEER}/capacitors/Vishay/VY2103M63Y5UG63V7.stp"
+		(offset
+			(xyz 0 -0.5 12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

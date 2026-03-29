@@ -1,0 +1,200 @@
+(footprint "SW_SPDT_3pin_Subminiature_Toggle"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "908a7b05-2bd2-4054-a340-d2d753175bbf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT_3pin_Subminiature_Toggle"
+		(at -0.05 6.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5fca4c83-cfb0-4a72-b372-90808a558635")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2e01d0a-e757-4823-8210-8f1f7a1fc2d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1f6701d-02bd-496c-931a-132fd8a85764")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.3 2.25)
+		(end -4.3 -2.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "42121c44-f187-4594-b7fe-8a49534acbb3")
+	)
+	(fp_line
+		(start -3.8 -2.75)
+		(end 3.8 -2.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d18f270f-c35a-4b32-9811-0f90979297a1")
+	)
+	(fp_line
+		(start 3.8 2.75)
+		(end -3.8 2.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f7b13174-8584-46e3-917a-87a2ac44e9b0")
+	)
+	(fp_line
+		(start 4.3 -2.25)
+		(end 4.3 2.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6e4d8d3e-f52d-4fbf-9edf-fdbb89d84ad7")
+	)
+	(fp_arc
+		(start -4.3 -2.25)
+		(mid -4.153553 -2.603553)
+		(end -3.8 -2.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d52a2bc4-2e38-4621-9222-5d2b259d1363")
+	)
+	(fp_arc
+		(start -3.8 2.75)
+		(mid -4.153553 2.603553)
+		(end -4.3 2.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bdde0527-02c5-471d-a94d-440cf1906104")
+	)
+	(fp_arc
+		(start 3.8 -2.75)
+		(mid 4.153553 -2.603553)
+		(end 4.3 -2.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af167c97-3198-457c-9eac-13c93042cc11")
+	)
+	(fp_arc
+		(start 4.3 2.25)
+		(mid 4.153553 2.603553)
+		(end 3.8 2.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68bd98b1-d7d7-4d91-9af3-942c1fe52cf4")
+	)
+	(fp_rect
+		(start -4.55 -3)
+		(end 4.55 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3a44fd36-3964-406f-8f9a-9d6fd15bb66e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 7.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f52f0fdc-e336-4c73-9e14-8d0350bbc0ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0 90)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44899f8f-863f-479a-b0a8-8b3b7ac23227")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 90)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4c74258-7c6e-442e-869f-a790eea12980")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0 90)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a11e0ad4-fce3-46e4-bc3c-91ff5fd681bc")
+	)
+	(embedded_fonts no)
+	(model "/home/jared/Projects/kicad/library/thelazyengineer/models/switches/E-Switch/141_200AWMSPxT1A1M2xE.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

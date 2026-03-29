@@ -1,0 +1,311 @@
+(footprint "Panasonic_Tactile_EVQ_6.5x6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "${REFERENCE}"
+		(at 0 -4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5d1ab436-d062-4631-8cd1-d7c46e8be82d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "Panasonic_Tactile_EVQ_6.5x6mm"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c3fc3fbb-e88d-4967-b103-0338e9109327")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "351b671b-e8a1-489e-b61c-7c989b02763a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bb4e146-3455-48d3-8cc2-b8ba8003e3f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -2.7)
+		(end -3.5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "41eaaabc-ea5c-4f23-8adb-999bdad60a6f")
+	)
+	(fp_line
+		(start -3.5 1.3)
+		(end -3.5 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "940059dd-2733-4ac2-a62d-47b7a0d1f2fe")
+	)
+	(fp_line
+		(start -3.5 3)
+		(end -3.5 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a52c3909-8a71-48f4-8c8f-55e733e91f80")
+	)
+	(fp_line
+		(start -3.3 -3.2)
+		(end 3.3 -3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a64625e-005d-442a-8d5a-7912a403ec27")
+	)
+	(fp_line
+		(start 0 -3.2)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4289692b-fef2-42c1-a94e-6b36e7b70b4b")
+	)
+	(fp_line
+		(start 0 1)
+		(end -1.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e8b659a-9fac-414b-9de5-babd1f6e27dd")
+	)
+	(fp_line
+		(start 0 3.2)
+		(end 0 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45cbb065-3baa-4004-b463-157be66c0cd7")
+	)
+	(fp_line
+		(start 3.3 3.2)
+		(end -3.3 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ecac54d-1907-49fa-b6e5-a179f44207fc")
+	)
+	(fp_line
+		(start 3.5 -3)
+		(end 3.5 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2fb25b25-5b29-424b-be6c-422a322364ca")
+	)
+	(fp_line
+		(start 3.5 1.3)
+		(end 3.5 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d079a7c-6b96-45e9-9e73-dabf07ca7028")
+	)
+	(fp_line
+		(start 3.5 2.7)
+		(end 3.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d07f6de8-a5c3-4506-bf7c-dd27f0b82619")
+	)
+	(fp_arc
+		(start -3.5 -3)
+		(mid -3.441421 -3.141421)
+		(end -3.3 -3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12170da9-e429-4f66-b870-736963646e06")
+	)
+	(fp_arc
+		(start -3.3 3.2)
+		(mid -3.441421 3.141421)
+		(end -3.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08fd73ab-415e-4dcc-a2e4-997058388102")
+	)
+	(fp_arc
+		(start 3.3 -3.2)
+		(mid 3.441421 -3.141421)
+		(end 3.5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51c57006-13f9-412c-86e7-9dc40a3e7828")
+	)
+	(fp_arc
+		(start 3.5 3)
+		(mid 3.441421 3.141421)
+		(end 3.3 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9bd065f4-62cc-4b4b-8271-ec04bf90b618")
+	)
+	(fp_circle
+		(center 0 -1)
+		(end 0.1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6e823081-ac85-4d66-ba30-9a3bb72be37b")
+	)
+	(fp_circle
+		(center 0 1)
+		(end 0.1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3c156deb-c722-43b9-8bbf-eb09ad0a319c")
+	)
+	(fp_rect
+		(start -4.8 -3.3)
+		(end 4.8 3.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fac2c0e9-6491-4c39-b2b5-f1d7405cf80b")
+	)
+	(fp_rect
+		(start -3.25 -3)
+		(end 3.25 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b0a163e8-6219-45fd-b7e4-3f4e68e17130")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9cba09cf-07cd-4a92-9452-e87f861a30f0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.3 -2)
+		(size 3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "84bd05b8-c1cf-47d0-98b3-3cc5ded63577")
+	)
+	(pad "1" smd roundrect
+		(at 3.3 -2)
+		(size 3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "186b2e0d-0597-40cd-afe0-a047c025d27a")
+	)
+	(pad "2" smd roundrect
+		(at -3.3 2)
+		(size 3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "da46f175-fcb2-4280-987b-e3bfeab3459c")
+	)
+	(pad "2" smd roundrect
+		(at 3.3 2)
+		(size 3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "4ad80bf4-3af2-4e3e-8c20-d5dd6d951045")
+	)
+	(embedded_fonts no)
+	(model "${THE_LAZY_ENGINEER}/switches/Panasonic/EVQ-Q2U03W.stp"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 -90)
+		)
+	)
+)

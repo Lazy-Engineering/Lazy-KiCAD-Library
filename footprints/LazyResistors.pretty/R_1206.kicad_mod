@@ -1,0 +1,231 @@
+(footprint "R_1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "${REFERENCE}"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "86ecb535-deb8-42ba-b392-22e867b36c35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_1206"
+		(at 0 2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9e1e5631-ea6c-4d14-adfb-ad0d019fd242")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.14 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f805b021-a103-4c61-93de-e3eb3f84f530")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD 1206 Resistor"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e28bc261-9029-4ce7-9817-0275b2f374f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.275 0.725)
+		(end -2.275 -0.725)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d23b3a3-165d-49ea-9023-e0d002b6a4d8")
+	)
+	(fp_line
+		(start -1.875 -1.125)
+		(end 1.875 -1.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f36867ba-bd1e-4390-b5f0-47f89970e161")
+	)
+	(fp_line
+		(start 1.875 1.125)
+		(end -1.875 1.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c6fd699d-8d61-4329-92da-403728b74b59")
+	)
+	(fp_line
+		(start 2.275 -0.725)
+		(end 2.275 0.725)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7dc6b2d8-2870-4bae-a029-ac007c1425ea")
+	)
+	(fp_arc
+		(start -2.275 -0.725)
+		(mid -2.157843 -1.007843)
+		(end -1.875 -1.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "da71be32-8eef-40e0-b4e2-129696673d89")
+	)
+	(fp_arc
+		(start -1.875 1.125)
+		(mid -2.157843 1.007843)
+		(end -2.275 0.725)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e56aee1-cb2c-47ba-b108-bc4b6565a724")
+	)
+	(fp_arc
+		(start 1.875 -1.125)
+		(mid 2.157843 -1.007843)
+		(end 2.275 -0.725)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7dbcf2ee-941a-4daa-ae3b-b5233dee7c4e")
+	)
+	(fp_arc
+		(start 2.275 0.725)
+		(mid 2.157843 1.007843)
+		(end 1.875 1.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "48633e89-e0d9-4dd4-af6e-d423353b1e29")
+	)
+	(fp_rect
+		(start -2.35 -1.2)
+		(end 2.35 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1a562ff3-310e-43e3-ba52-045a4450ddea")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.68 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "590baf2c-23ca-4d08-8218-94bc353fd4b0")
+	)
+	(fp_line
+		(start -1.6 0.79)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "138a312d-e5e6-4a95-a6ee-4f24861974da")
+	)
+	(fp_line
+		(start 1.68 -0.8)
+		(end 1.68 0.79)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8f05823-d7c6-48f7-8e5a-0008b2a0e7d4")
+	)
+	(fp_line
+		(start 1.68 0.79)
+		(end -1.6 0.79)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "032fd76c-bf97-4df0-8ef3-922ca4c06b23")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "07338441-2b44-4e29-a13b-5f7f4d7f8422")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.46 0)
+		(size 1.125 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "47ea9880-bc78-426f-934a-fbfb19ede086")
+	)
+	(pad "2" smd roundrect
+		(at 1.46 0)
+		(size 1.125 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "92b60b2e-8fc0-45af-8d9b-66f145551849")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

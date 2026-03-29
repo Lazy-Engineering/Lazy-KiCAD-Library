@@ -1,0 +1,210 @@
+(footprint "R_0612_Reversed"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0612 Current Sense Resistor")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "917069c3-0c52-4854-a099-1fa9e4b27229")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_0612_Reversed"
+		(at 0 3.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8ae90c19-aaee-48a1-b6fd-961aa28bf1db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a64174f-923f-4518-9ca5-326061fa683d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f82dce29-d698-4865-ba14-ddb6647d8fc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 1.85)
+		(end -1.8 -1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81acb54f-86ef-43fd-b051-ae0d47575a81")
+	)
+	(fp_line
+		(start -1.55 -2.1)
+		(end 1.55 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3619b5b-776a-47fe-8bc4-dfca83fb36f6")
+	)
+	(fp_line
+		(start 1.55 2.1)
+		(end -1.55 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68e03dcd-f26f-4880-a141-ac2039d72d03")
+	)
+	(fp_line
+		(start 1.8 -1.85)
+		(end 1.8 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "183d6c5e-9b34-4e64-9832-f25323637385")
+	)
+	(fp_arc
+		(start -1.8 -1.85)
+		(mid -1.726777 -2.026777)
+		(end -1.55 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a300f20-11b5-4185-b921-0fa741d02070")
+	)
+	(fp_arc
+		(start -1.55 2.1)
+		(mid -1.726777 2.026777)
+		(end -1.8 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dd65f883-e17d-4fa8-9f7d-5392038d5033")
+	)
+	(fp_arc
+		(start 1.55 -2.1)
+		(mid 1.726777 -2.026777)
+		(end 1.8 -1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bcc06445-309a-4532-a383-404558c93399")
+	)
+	(fp_arc
+		(start 1.8 1.85)
+		(mid 1.726777 2.026777)
+		(end 1.55 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "78b5f0bd-b2ea-4ded-9855-9f5044a4f0d4")
+	)
+	(fp_rect
+		(start -1.85 -2.15)
+		(end 1.85 2.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ce5b937b-a81f-40fb-8cf5-2096622209e3")
+	)
+	(fp_line
+		(start -0.8 1.6)
+		(end -0.8 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5747d3ed-3c04-412e-9298-52a88957d6d8")
+	)
+	(fp_line
+		(start 0.8 -1.6)
+		(end 0.8 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3614a1ef-efb0-4364-997a-76ee20bcd8a8")
+	)
+	(fp_text user "REF**"
+		(at 0 -3.2 0)
+		(layer "F.Fab")
+		(uuid "0315253e-0ad3-450b-b7a0-b4235dc57888")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 1.3 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin -0.1)
+		(uuid "4b011ef0-5d21-4732-ba96-2885d1358108")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 1.3 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin -0.1)
+		(uuid "536690c4-de15-4eb7-9904-93019e5f8a2a")
+	)
+	(embedded_fonts no)
+	(model "/home/jared/Projects/electronics/kicad/models/resistors/Vishay/WFCP06122L000FE66.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

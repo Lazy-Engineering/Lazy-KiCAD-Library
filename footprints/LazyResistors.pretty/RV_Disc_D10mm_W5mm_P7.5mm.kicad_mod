@@ -1,0 +1,221 @@
+(footprint "RV_Disc_D10mm_W5mm_P7.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "V10P30P-6")
+	(tags "Varistor")
+	(property "Reference" "REF**"
+		(at 0 -3.8 0)
+		(layer "F.SilkS")
+		(uuid "8320785a-a34f-4068-bd57-b18c071b57b8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "RV_Disc_D10mm_W5mm_P7.5mm"
+		(at 3.75 1.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "12f05628-01c6-47d5-844e-60c2fe4d8d9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2575d542-7058-42e7-8799-a0f79d75f169")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9411c6e3-9ceb-4a73-94c3-a24ef23059f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 -2.3)
+		(end 4 -2.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1954ceec-397a-40e5-aa9e-ae511f1d88f6")
+	)
+	(fp_line
+		(start -4 2.3)
+		(end 4 2.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86a54a00-363b-4c22-97f9-85451f463ada")
+	)
+	(fp_arc
+		(start -4 2.3)
+		(mid -6.3 0)
+		(end -4 -2.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e7d7bf1-0b46-4e53-8eff-9a07cd501461")
+	)
+	(fp_arc
+		(start 4 -2.3)
+		(mid 6.3 0)
+		(end 4 2.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb735b2c-9795-4517-8397-13a38eb22375")
+	)
+	(fp_line
+		(start -4 -2.5)
+		(end 4 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "35221d9c-65ec-4da7-b4a2-b779cf4bb809")
+	)
+	(fp_line
+		(start -4 2.5)
+		(end 4 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1005400-c1ce-4afd-885a-e5165ea756ad")
+	)
+	(fp_arc
+		(start -4 2.5)
+		(mid -6.5 0)
+		(end -4 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "341eb0f7-d814-4a31-bec9-6e52f58ddcca")
+	)
+	(fp_arc
+		(start 4 -2.5)
+		(mid 6.5 0)
+		(end 4 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "49f9e6f8-3bc2-4fc0-a437-cbb2f880e9c5")
+	)
+	(fp_line
+		(start -4 -2.25)
+		(end 4 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f90c4fb9-2c36-4808-8c06-02e73f72b818")
+	)
+	(fp_line
+		(start -4 2.25)
+		(end 4 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3c0db7a-0fe2-479d-8c97-446bdda5c988")
+	)
+	(fp_arc
+		(start -4 2.25)
+		(mid -6.25 0)
+		(end -4 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9c3f5c82-1afd-4e94-9b4d-ea31f5a21c07")
+	)
+	(fp_arc
+		(start 4 -2.25)
+		(mid 6.25 0)
+		(end 4 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7725d8d5-7d52-4f8d-b5d3-2667cec8236b")
+	)
+	(fp_text user "REF**"
+		(at 0 -3.8 0)
+		(layer "F.Fab")
+		(uuid "450cce95-dae9-450e-9978-6cb44e077c8e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.75 -1)
+		(size 1.515 1.515)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ddfdf0b9-0686-425c-abf3-0d9d90b0077f")
+	)
+	(pad "2" thru_hole circle
+		(at 3.75 1)
+		(size 1.515 1.515)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e136c438-7eab-4251-93e6-69e691b2d204")
+	)
+	(embedded_fonts no)
+	(model "${THE_LAZY_ENGINEER}/resistors/EPCOS/s10k275e2.step"
+		(offset
+			(xyz 0 0 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,240 @@
+(footprint "MOC3063S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.825 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "159858a2-9bcc-482c-ac9f-a2a7a4cd6cb4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "MOC3063S"
+		(at 0 7.125 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3295bf14-d04d-4d24-9da6-4a9ead77308d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f43f5c3-6670-4460-9bb7-9deb339c9b1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aed774aa-8fbd-4863-8147-25fabf48ed3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 4.6)
+		(end -4 -4.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "694b868d-1689-461f-aed3-1afe6a50c927")
+	)
+	(fp_line
+		(start -3 -5.6)
+		(end 3 -5.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36d4f894-0b5a-40c5-93df-93886e8668fb")
+	)
+	(fp_line
+		(start 3 5.6)
+		(end -3 5.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9ff1c652-3233-4922-9f06-0dbf0a354604")
+	)
+	(fp_line
+		(start 4 -4.6)
+		(end 4 4.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5280cfdf-d15b-489f-93fb-90184dadd433")
+	)
+	(fp_arc
+		(start -4 -4.6)
+		(mid -3.707107 -5.307107)
+		(end -3 -5.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5510a40-5e1b-4f5e-a122-ac9328da089c")
+	)
+	(fp_arc
+		(start -3 5.6)
+		(mid -3.707107 5.307107)
+		(end -4 4.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f94c6ff2-0bc8-4a6e-bc92-16b751086872")
+	)
+	(fp_arc
+		(start 3 -5.6)
+		(mid 3.707107 -5.307107)
+		(end 4 -4.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "71cb28f0-2d8d-4766-8fa9-00ec9c403858")
+	)
+	(fp_arc
+		(start 4 4.6)
+		(mid 3.707107 5.307107)
+		(end 3 5.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5e76694f-9126-4fe2-b733-034f95934e7e")
+	)
+	(fp_circle
+		(center -4.5 4.5)
+		(end -4.3 4.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c1dda4a2-22e5-4371-8159-e932ee3fa480")
+	)
+	(fp_rect
+		(start -4.1 -5.7)
+		(end 4.1 5.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "79ad34a8-1a29-4cce-a14d-50d214cfea52")
+	)
+	(fp_rect
+		(start -3.9 -3.5)
+		(end 3.9 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "622ee379-9958-4b86-b39f-d715da7d65c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8.625 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9bb33861-231f-4c37-956d-d102f1c35e04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.54 4.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "fd807198-d697-49f5-87e5-c0d483b67667")
+	)
+	(pad "2" smd roundrect
+		(at 0 4.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "993f44a6-448c-4490-a9c5-693e4e1b5bcd")
+	)
+	(pad "3" smd roundrect
+		(at 2.54 4.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6c01ae00-6ef5-445a-9700-ffe21c706809")
+	)
+	(pad "4" smd roundrect
+		(at 2.54 -4.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6497bedd-ec6b-4faf-b2f7-d816f213a8a6")
+	)
+	(pad "5" smd roundrect
+		(at 0 -4.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7281bf4d-452f-4e44-a681-3fe615dba48d")
+	)
+	(pad "6" smd roundrect
+		(at -2.54 -4.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b24e1494-f0d2-4153-9fdf-0adb3130e75f")
+	)
+	(embedded_fonts no)
+	(model "${THE_LAZY_ENGINEER}/isolators/onsemi/MOC3083SR2M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

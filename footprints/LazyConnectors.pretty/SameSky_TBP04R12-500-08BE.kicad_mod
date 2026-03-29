@@ -1,0 +1,239 @@
+(footprint "SameSky_TBP04R12-500-08BE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.7 3.8 90)
+		(layer "F.SilkS")
+		(uuid "faf158d9-beb1-487d-af87-b3547856e850")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "SameSky_TBP04R12-500-08BE"
+		(at 15.145 -4.205 0)
+		(layer "F.Fab")
+		(uuid "c18b07d7-fa1f-4c32-88b2-2ad513532e64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f6526dd-01be-4d14-9a24-3c02c79ff5f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d62370f-0d5b-4829-9ba9-23e233296c32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.3 -2.1)
+		(end 38.3 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c81cffa-f4cb-42e7-9dde-dc47efc5fb35")
+	)
+	(fp_line
+		(start -3.3 7)
+		(end -3.3 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fefb431d-005e-47b3-a35d-53b18e590472")
+	)
+	(fp_line
+		(start 38.3 -2.1)
+		(end 38.3 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "389e26ed-216a-4be6-ac7c-cbc5bd87ff2a")
+	)
+	(fp_line
+		(start -3.45 -2.25)
+		(end 38.45 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c93ae09-2d00-4e14-993b-397993e4b742")
+	)
+	(fp_line
+		(start -3.45 10.25)
+		(end -3.45 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4462cdd8-598f-4921-bcde-a738d294a7d9")
+	)
+	(fp_line
+		(start 38.45 -2.25)
+		(end 38.45 10.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f01541bc-15d7-4cb3-8172-29f9c2fb0dcf")
+	)
+	(fp_line
+		(start 38.45 10.25)
+		(end -3.45 10.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40c9e990-09ab-46b4-9100-41776533212b")
+	)
+	(fp_line
+		(start -3.2 -2)
+		(end 38.2 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c13fa305-c919-4a76-a900-49474184f391")
+	)
+	(fp_line
+		(start -3.2 10)
+		(end -3.2 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "220fcee9-edd2-4b09-8373-3404a516d813")
+	)
+	(fp_line
+		(start 38.2 -2)
+		(end 38.2 10)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ab8d93c-0fcb-4a0a-b8e0-ec27ed4c78da")
+	)
+	(fp_line
+		(start 38.2 10)
+		(end -3.2 10)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1a2ef19-f29a-4077-999d-54ff3068d19b")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae63b628-a2fe-4085-8400-bd6f47344523")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a58d9de-d3b4-402c-87c0-26a26ab0e28d")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff8eafcc-c43b-429a-9ea2-b1d2b8c729f0")
+	)
+	(pad "4" thru_hole circle
+		(at 15 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9e20f31-e5a6-4d6d-92d0-ddfa756e7268")
+	)
+	(pad "5" thru_hole circle
+		(at 20 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf3e395b-fb66-40d9-b451-6b56fbc38aa9")
+	)
+	(pad "6" thru_hole circle
+		(at 25 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "adee00f0-7c7a-47c6-8d76-95240e7834e3")
+	)
+	(pad "7" thru_hole circle
+		(at 30 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b2f8a7b-b08b-4e8b-be8b-a02f92af985e")
+	)
+	(pad "8" thru_hole circle
+		(at 35 0)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "583fb530-5b61-46eb-8283-d00cefe3d57c")
+	)
+	(embedded_fonts no)
+	(model "/home/jared/Projects/kicad/library/thelazyengineer/models/connectors/Same Sky/TBP04R12-500-08BE.step"
+		(offset
+			(xyz -2.5 -5.6 -3.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

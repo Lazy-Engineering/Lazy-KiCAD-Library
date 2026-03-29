@@ -1,0 +1,245 @@
+(footprint "C_THT_L18.0mm_W5.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "${REFERENCE}"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(uuid "ff2b084e-09cd-4f3f-b441-c190ea18cfd1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "C_THT_L18.0mm_W5.0mm"
+		(at 0 5.15 0)
+		(layer "F.Fab")
+		(uuid "2502f42f-fada-4cfe-87b4-69b06d935ab2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fe1932a-a0d2-4bfb-9e7b-fb995c5536a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e101d27-c111-4834-9d98-0a76f12f33bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.1 -2.099999)
+		(end -9.1 2.099999)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "287d3458-fe51-4bd4-9393-d32f8a63a46b")
+	)
+	(fp_line
+		(start -8.6 -2.6)
+		(end 8.6 -2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d01cc49f-0cbb-425a-8d05-d80960b767c5")
+	)
+	(fp_line
+		(start -8.6 2.6)
+		(end 8.6 2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f28c838-7ce5-44b8-987b-c13d02409085")
+	)
+	(fp_line
+		(start 9.1 -2.1)
+		(end 9.1 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d4b8c26-0ce2-4a17-aa86-32111bf3ab6c")
+	)
+	(fp_arc
+		(start -9.1 -2.1)
+		(mid -8.953553 -2.453553)
+		(end -8.6 -2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65066c3c-f7ef-4d94-bc07-a3490db66347")
+	)
+	(fp_arc
+		(start -8.6 2.6)
+		(mid -8.953553 2.453553)
+		(end -9.1 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fa7f0b0-f782-4eb8-a64a-013beb74e060")
+	)
+	(fp_arc
+		(start 8.6 -2.6)
+		(mid 8.953553 -2.453553)
+		(end 9.1 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2225f2f6-cce9-4edf-afc5-ea9ebecc3bcb")
+	)
+	(fp_arc
+		(start 9.1 2.1)
+		(mid 8.953553 2.453553)
+		(end 8.6 2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "443ff073-d79d-447a-a5cf-c00c08de1a8f")
+	)
+	(fp_line
+		(start -9.2 -2.7)
+		(end -9.2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "515fb1f8-c776-4d8c-9551-ba54ac20d737")
+	)
+	(fp_line
+		(start -9.2 -2.7)
+		(end 9.2 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85810d7d-b642-4d8b-b07b-22cb3800b40d")
+	)
+	(fp_line
+		(start 9.2 -2.7)
+		(end 9.2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af789422-7e99-4bad-bddd-02bec4b456fd")
+	)
+	(fp_line
+		(start 9.2 2.7)
+		(end -9.2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e74ceaa-95bf-42b0-ba1e-4e6ba30e7967")
+	)
+	(fp_line
+		(start -9 -2.5)
+		(end -9 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0be8e534-3489-4f71-8656-491d4cb7ca9d")
+	)
+	(fp_line
+		(start -9 -2.5)
+		(end 9 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81dbe0cd-6039-4e7a-bbd3-95325795a864")
+	)
+	(fp_line
+		(start 9 -2.5)
+		(end 9 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcdd6548-dc4d-4877-88ae-a38778705774")
+	)
+	(fp_line
+		(start 9 2.5)
+		(end -9 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "beea6ad6-5cad-4ddd-a618-329cca07e53c")
+	)
+	(pad "1" thru_hole circle
+		(at -7.5 0)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9ca8fb8-91ab-43fa-87dc-b83ad3442633")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de9e4a90-0ba4-4f1d-b599-6cc7ff027910")
+	)
+	(embedded_fonts no)
+	(model "${THE_LAZY_ENGINEER}/capacitors/TDK/B32922C3104M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,257 @@
+(footprint "Wurth_FuseHolder_696105003002"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eff327bf-33dc-492e-97d1-e523e9755403")
+		(effects
+			(font
+				(face "FiraCode Nerd Font Med")
+				(size 2 2)
+				(thickness 0.1)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -3.311967 -10.14082) (xy -3.155189 -10.111431) (xy -3.02977 -10.066696) (xy -2.93018 -10.00866)
+					(xy -2.845852 -9.929929) (xy -2.785422 -9.834573) (xy -2.747629 -9.719209) (xy -2.734175 -9.57867)
+					(xy -2.742999 -9.470201) (xy -2.768177 -9.376554) (xy -2.808698 -9.29511) (xy -2.864845 -9.223907)
+					(xy -2.957905 -9.143153) (xy -3.06402 -9.079687) (xy -3.185047 -9.033032) (xy -2.623533 -8.17)
+					(xy -3.011269 -8.17) (xy -3.509524 -8.985648) (xy -3.72629 -8.985648) (xy -3.72629 -8.17) (xy -4.059437 -8.17)
+					(xy -4.059437 -9.229647) (xy -3.72629 -9.229647) (xy -3.480825 -9.229647) (xy -3.35677 -9.239914)
+					(xy -3.260939 -9.26784) (xy -3.187246 -9.310736) (xy -3.131909 -9.372441) (xy -3.096331 -9.458882)
+					(xy -3.083076 -9.57867) (xy -3.095708 -9.688845) (xy -3.129877 -9.769371) (xy -3.183582 -9.827798)
+					(xy -3.254934 -9.867684) (xy -3.353596 -9.894498) (xy -3.487909 -9.904612) (xy -3.72629 -9.904612)
+					(xy -3.72629 -9.229647) (xy -4.059437 -9.229647) (xy -4.059437 -10.151542) (xy -3.506593 -10.151542)
+				)
+			)
+			(polygon
+				(pts
+					(xy -1.92451 -9.898872) (xy -1.92451 -9.30292) (xy -1.206558 -9.30292) (xy -1.206558 -9.050251)
+					(xy -1.92451 -9.050251) (xy -1.92451 -8.422669) (xy -1.049999 -8.422669) (xy -1.049999 -8.17) (xy -2.257657 -8.17)
+					(xy -2.257657 -10.151542) (xy -1.065874 -10.151542) (xy -1.103121 -9.898872)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.162909 -9.898872) (xy -0.162909 -9.268482) (xy 0.582398 -9.268482) (xy 0.582398 -9.01569)
+					(xy -0.162909 -9.01569) (xy -0.162909 -8.17) (xy -0.495934 -8.17) (xy -0.495934 -10.151542) (xy 0.723081 -10.151542)
+					(xy 0.685712 -9.898872)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.634351 -9.847093) (xy 1.95028 -9.847093) (xy 1.914376 -9.279961) (xy 2.44133 -9.486713) (xy 2.537562 -9.190935)
+					(xy 1.989114 -9.048785) (xy 2.349495 -8.609392) (xy 2.098169 -8.428408) (xy 1.792377 -8.90517)
+					(xy 1.486462 -8.428408) (xy 1.235259 -8.609392) (xy 1.595639 -9.048785) (xy 1.04707 -9.190935)
+					(xy 1.143301 -9.486713) (xy 1.670255 -9.279961)
+				)
+			)
+			(polygon
+				(pts
+					(xy 3.21387 -9.847093) (xy 3.529798 -9.847093) (xy 3.493894 -9.279961) (xy 4.020848 -9.486713)
+					(xy 4.11708 -9.190935) (xy 3.568633 -9.048785) (xy 3.929013 -8.609392) (xy 3.677687 -8.428408)
+					(xy 3.371895 -8.90517) (xy 3.065981 -8.428408) (xy 2.814777 -8.609392) (xy 3.175157 -9.048785)
+					(xy 2.626588 -9.190935) (xy 2.72282 -9.486713) (xy 3.249774 -9.279961)
+				)
+			)
+		)
+	)
+	(property "Value" "Wurth_FuseHolder_696105003002"
+		(at -0.1 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "948df620-6801-4b22-909f-b77c29606f0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb6a94fb-fcd2-466a-b172-44ebf824e766")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec634ca0-a805-457a-a60c-59042615dd56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.4 3.9)
+		(end -12.4 -3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c942906c-177d-4772-9bc3-e41a535ba383")
+	)
+	(fp_line
+		(start -11.4 -4.9)
+		(end 11.4 -4.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef3c6639-fcb2-4af9-bc40-18563ec9de81")
+	)
+	(fp_line
+		(start 11.4 4.9)
+		(end -11.4 4.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d75528ae-ed94-4567-8c5d-d91c6b081e6c")
+	)
+	(fp_line
+		(start 12.4 -3.9)
+		(end 12.4 3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "79263744-f86a-4202-bf96-55ce415bf27d")
+	)
+	(fp_arc
+		(start -12.4 -3.9)
+		(mid -12.107107 -4.607107)
+		(end -11.4 -4.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ac40255-1a10-4448-982e-0ba8a3694055")
+	)
+	(fp_arc
+		(start -11.4 4.9)
+		(mid -12.107107 4.607107)
+		(end -12.4 3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40c0505b-43ec-44cd-94c5-42ae26d58931")
+	)
+	(fp_arc
+		(start 11.4 -4.9)
+		(mid 12.107107 -4.607107)
+		(end 12.4 -3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dc14256a-a4a5-465d-ad2b-8528065e26af")
+	)
+	(fp_arc
+		(start 12.4 3.9)
+		(mid 12.107107 4.607107)
+		(end 11.4 4.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ea9a84c0-1fbb-44a8-ba94-9d8117a3434d")
+	)
+	(fp_rect
+		(start -12.6 -5.1)
+		(end 12.6 5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "42d3725e-c916-4657-9f4e-6baf2950b00c")
+	)
+	(fp_rect
+		(start -12.2 -4.7)
+		(end 12.2 4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "363b45f0-52f3-475c-bdf5-4f30bc3c9153")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1760afbd-e8d6-4d9b-9708-639872969a7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.6 2.6)
+		(drill 2.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "5c9b777b-8a76-4f91-a182-231eb45d10ae")
+	)
+	(pad "1" thru_hole circle
+		(at -7.5 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "497b1c72-6637-4e1e-98ee-23ed2a2dd50e")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4ceaf02-0e6d-4a43-a952-d754d3987f7a")
+	)
+	(embedded_fonts no)
+	(model "/home/jared/Projects/kicad/library/thelazyengineer/models/connectors/Wurth/696105003002.step"
+		(offset
+			(xyz 0 -4.5 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
